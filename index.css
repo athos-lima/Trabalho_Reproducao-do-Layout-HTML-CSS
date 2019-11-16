@@ -1,0 +1,118 @@
+body{
+	background-color: #7F8082;
+}
+header{/*Fundo preto*/
+	background-color: black;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	margin-top: -5%;
+	margin-bottom: -8%;
+}
+header li{/*Uol Bol Globo Yahoo*/
+	color: #728E96;
+	display: inline-block;
+	margin-left: 1%;
+	transform: translate(50%, 80%);
+}
+header h3 p{/*10 de novembro de 2019*/
+	color: #DCDCDC;
+	transform: translateY(-60%);
+	margin-left: 50%;
+}
+nav{/*Fundo azul*/
+	background-color: #0B2C4D;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	margin-top: 8.5%;
+}
+nav a{/*Home Troféus História Conselho*/
+	color: #DCDCDC;
+	text-decoration-line: none;  
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-bottom: -1.5%;
+	margin-top: -1.5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+main h2{/*O Time*/
+	color: #ACC4DB;
+	font-size: 300%;
+	text-align: center;
+	transform: translateY(-30%);
+	//transform: translate(0%, -10%);
+}
+main div p{
+	color: black;
+	font-family: "Arial";
+	font-size: 80%;
+}
+main{/* Texto*/
+	float: left;
+	margin-top: 0.4%;
+	background-color: #DCDCDC;
+	border-color: white;
+	border-top-style: ridge;
+	border-bottom-style: groove;
+	border-right-style: groove;
+	border-left-style: ridge;
+	padding-bottom: 20%;
+	margin-left: -1%;
+	border-width: 60px;
+	max-width: 59%;
+	max-height: 200px;
+}
+aside{/*Fundo*/ 
+	float: right;
+	background-color: #002252;
+	height: 600px;
+	margin-top: 0.4%;
+	padding-left: 27.8%;
+	margin-right: -2.6%;
+
+}
+aside li{
+	color: white;
+ 	position: relative;
+ 	right: 620%;
+}
+footer p{
+	font-size: 120%;
+	color: white;
+	position: absolute;
+	margin-left: 1.6%;
+}
+footer{
+	background-color: black;
+	height: 64.4px;
+	position: relative;
+	margin-top: 44%;
+	margin-right: -0.6%;
+	margin-left: -0.6%;
+}
+ @media (min-width: 992px) {
+ .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 24%;
+  }
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.lead {
+  font-size: 0.75rem;
+  font-weight: 100;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #e9ecef;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
